@@ -48,6 +48,7 @@ brew install wget --with-iri
 # ZSH
 brew install zsh
 chsh -s /usr/local/bin/zsh
+brew install zsh-syntax-highlighting zsh-autocomplete
 
 # Install RingoJS and Narwhal.
 # Note that the order in which these are installed is important;
@@ -58,6 +59,7 @@ brew install narwhal
 # Install Python
 brew install python
 brew install python3
+brew install pyenv
 
 # Install ruby-build and rbenv
 brew install ruby-build
@@ -140,6 +142,7 @@ brew install --cask --appdir="/Applications" alfred
 brew install --cask --appdir="~/Applications" iterm2
 brew install --cask --appdir="~/Applications" java
 brew install --cask --appdir="~/Applications" xquartz
+brew install jenv
 
 # Development tool casks
 # brew install --cask --appdir="/Applications" sublime-text
