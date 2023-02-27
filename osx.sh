@@ -43,6 +43,9 @@ defaults write com.apple.systemuiserver menuExtras -array \
     "/System/Library/CoreServices/Menu Extras/Battery.menu" \
     "/System/Library/CoreServices/Menu Extras/Clock.menu"
 
+# dockutil
+brew install dockutil
+
 # Set highlight color to green
 #defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.568600"
 
@@ -353,6 +356,13 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 ###############################################################################
 # Dock, Dashboard, and hot corners                                            #
 ###############################################################################
+
+# Set minimalist Dock
+dockutil --remove all
+dockutil --add "Google Chrome" "1password"
+
+# Only show Active Apps
+defaults write com.apple.dock static-only -bool TRUE; killall Dock
 
 # Enable highlight hover effect for the grid view of a stack (Dock)
 defaults write com.apple.dock mouse-over-hilite-stack -bool true
