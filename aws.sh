@@ -55,7 +55,7 @@ mkvirtualenv --python=/usr/local/bin/python3 py3-data
 workon py3-data
 
 pip install boto
-pip install awscli
+pip install awscliv2
 #pip install mrjob  # Python 2 only
 #pip install s3cmd  # Python 2 only
 
