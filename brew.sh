@@ -155,15 +155,14 @@ brew install --cask --appdir="/Applications" visual-studio-code
 # Misc casks
 brew install --cask --appdir="/Applications" google-chrome
 # brew install --cask --appdir="/Applications" firefox
-# brew install --cask --appdir="/Applications" skype
+brew install --cask --appdir="/Applications" zoom
 brew install --cask --appdir="/Applications" slack
 brew install --cask --appdir="/Applications" dropbox
 brew install --cask --appdir="/Applications" notion
 brew install --cask --appdir="/Applications" 1password
 brew install --cask --appdir="/Applications" fantastical
 brew install --cask --appdir="/Applications" spectacle
-#brew install --cask --appdir="/Applications" gimp
-#brew install --cask --appdir="/Applications" inkscape
+brew install --cask --appdir="/Applications" bartender
 brew install --cask --appdir="/Applications" webtorrent
 
 #Remove comment to install LaTeX distribution MacTeX
