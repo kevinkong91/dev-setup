@@ -156,7 +156,7 @@ brew install --cask --appdir="/Applications" visual-studio-code
 
 # Misc casks
 brew install --cask --appdir="/Applications" google-chrome
-# brew install --cask --appdir="/Applications" firefox
+brew install --cask --appdir="/Applications" firefox
 brew install --cask --appdir="/Applications" zoom
 brew install --cask --appdir="/Applications" slack
 brew install --cask --appdir="/Applications" dropbox
