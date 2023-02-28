@@ -67,6 +67,9 @@ brew install rbenv
 LINE='eval "$(rbenv init -)"'
 grep -q "$LINE" ~/.extra || echo "$LINE" >> ~/.extra
 
+# Install Java env
+brew install jenv
+
 # Install more recent versions of some OS X tools.
 brew install vim --override-system-vi
 brew install homebrew/dupes/grep
@@ -142,7 +145,6 @@ brew install --cask --appdir="/Applications" alfred
 brew install --cask --appdir="~/Applications" iterm2
 brew install --cask --appdir="~/Applications" java
 brew install --cask --appdir="~/Applications" xquartz
-brew install jenv
 
 # Development tool casks
 # brew install --cask --appdir="/Applications" sublime-text
@@ -169,7 +171,7 @@ brew install --cask --appdir="/Applications" webtorrent
 #brew install --cask --appdir="/Applications" mactex
 
 # Install Docker, which requires virtualbox
-brew install docker
+brew install --cask docker
 brew install boot2docker
 
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
