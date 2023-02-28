@@ -83,6 +83,7 @@ fi
 brew update
 
 brew install apache-spark
+brew install --cask session-manager-plugin
 
 ###############################################################################
 # Install IPython Notebook Spark Integration
