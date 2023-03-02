@@ -136,6 +136,7 @@ brew install webkit2png
 brew install zopfli
 brew install pkg-config libffi
 brew install pandoc
+brew install yarn
 
 # Lxml and Libxslt
 brew install libxml2
