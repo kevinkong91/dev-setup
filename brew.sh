@@ -78,6 +78,7 @@ brew install jenv
 
 # Install JS/TS
 brew install node@14
+brew link node@14
 brew install yarn
 
 # Install more recent versions of some OS X tools.
