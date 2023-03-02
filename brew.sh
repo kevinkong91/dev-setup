@@ -50,6 +50,12 @@ brew install zsh
 chsh -s /usr/local/bin/zsh
 brew install zsh-syntax-highlighting zsh-autocomplete
 
+# Install dev basics
+brew install git
+brew install git-lfs
+brew install git-flow
+brew install git-extras
+
 # Install RingoJS and Narwhal.
 # Note that the order in which these are installed is important;
 # see http://git.io/brew-narwhal-ringo.
@@ -69,6 +75,10 @@ grep -q "$LINE" ~/.extra || echo "$LINE" >> ~/.extra
 
 # Install Java env
 brew install jenv
+
+# Install JS/TS
+brew install node@14
+brew install yarn
 
 # Install more recent versions of some OS X tools.
 brew install vim --override-system-vi
@@ -113,10 +123,6 @@ brew install xz
 brew install ack
 brew install dark-mode
 #brew install exiv2
-brew install git
-brew install git-lfs
-brew install git-flow
-brew install git-extras
 brew install hub
 brew install htop
 brew install imagemagick --with-webp
@@ -136,7 +142,6 @@ brew install webkit2png
 brew install zopfli
 brew install pkg-config libffi
 brew install pandoc
-brew install yarn
 
 # Lxml and Libxslt
 brew install libxml2
