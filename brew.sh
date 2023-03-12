@@ -176,6 +176,7 @@ brew install --cask --appdir="/Applications" fantastical
 brew install --cask --appdir="/Applications" spectacle
 brew install --cask --appdir="/Applications" bartender
 brew install --cask --appdir="/Applications" webtorrent
+brew install --cask --appdir="/Applications" vlc
 
 #Remove comment to install LaTeX distribution MacTeX
 #brew install --cask --appdir="/Applications" mactex
