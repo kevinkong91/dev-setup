@@ -162,6 +162,7 @@ brew install --cask --appdir="~/Applications" xquartz
 # brew install --cask --appdir="/Applications" virtualbox
 # brew install --cask --appdir="/Applications" vagrant
 # brew install --cask --appdir="/Applications" macdown
+brew install --cask --appdir="/Applications" dbeaver-community
 brew install --cask --appdir="/Applications" visual-studio-code
 
 # Misc casks
