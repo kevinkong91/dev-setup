@@ -164,6 +164,7 @@ brew install --cask --appdir="~/Applications" xquartz
 # brew install --cask --appdir="/Applications" macdown
 brew install --cask --appdir="/Applications" dbeaver-community
 brew install --cask --appdir="/Applications" visual-studio-code
+brew install --cask --appdir="/Applications" keycastr
 
 # Misc casks
 brew install --cask --appdir="/Applications" google-chrome
