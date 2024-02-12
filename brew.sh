@@ -153,9 +153,9 @@ brew link libxslt --force
 
 # Core casks
 brew install --cask --appdir="/Applications" alfred
-brew install --cask --appdir="~/Applications" iterm2
-brew install --cask --appdir="~/Applications" java
-brew install --cask --appdir="~/Applications" xquartz
+brew install --cask --appdir="/Applications" iterm2
+brew install --cask --appdir="/Applications" java
+brew install --cask --appdir="/Applications" xquartz
 
 # Development tool casks
 # brew install --cask --appdir="/Applications" sublime-text
@@ -180,6 +180,8 @@ brew install --cask --appdir="/Applications" spectacle
 brew install --cask --appdir="/Applications" bartender
 brew install --cask --appdir="/Applications" webtorrent
 brew install --cask --appdir="/Applications" vlc
+brew install --cask --appdir="/Applications" xquartz
+brew install --cask --appdir="/Applications" whatsapp
 
 #Remove comment to install LaTeX distribution MacTeX
 #brew install --cask --appdir="/Applications" mactex
