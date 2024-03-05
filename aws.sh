@@ -56,6 +56,11 @@ workon py3-data
 
 pip install boto
 pip install awscliv2
+
+## Google Cloud
+pip install gcloud
+pip install gsutil
+
 #pip install mrjob  # Python 2 only
 #pip install s3cmd  # Python 2 only
 
