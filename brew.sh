@@ -153,40 +153,40 @@ brew link libxml2 --force
 brew link libxslt --force
 
 # Core casks
-brew install --cask --appdir="/Applications" alfred
-brew install --cask --appdir="/Applications" iterm2
-brew install --cask --appdir="/Applications" java
-brew install --cask --appdir="/Applications" xquartz
+brew install --cask alfred
+brew install --cask iterm2
+brew install --cask java
+brew install --cask xquartz
 brew install --cask raycast
 
 # Development tool casks
-# brew install --cask --appdir="/Applications" sublime-text
-# brew install --cask --appdir="/Applications" atom
-# brew install --cask --appdir="/Applications" virtualbox
-# brew install --cask --appdir="/Applications" vagrant
-# brew install --cask --appdir="/Applications" macdown
-brew install --cask --appdir="/Applications" dbeaver-community
-brew install --cask --appdir="/Applications" visual-studio-code
-brew install --cask --appdir="/Applications" keycastr
+# brew install --cask sublime-text
+# brew install --cask atom
+# brew install --cask virtualbox
+# brew install --cask vagrant
+# brew install --cask macdown
+brew install --cask dbeaver-community
+brew install --cask visual-studio-code
+brew install --cask keycastr
 
 # Misc casks
-brew install --cask --appdir="/Applications" google-chrome
-brew install --cask --appdir="/Applications" firefox
-brew install --cask --appdir="/Applications" zoom
-brew install --cask --appdir="/Applications" slack
-brew install --cask --appdir="/Applications" dropbox
-brew install --cask --appdir="/Applications" notion
-brew install --cask --appdir="/Applications" 1password
-brew install --cask --appdir="/Applications" fantastical
-brew install --cask --appdir="/Applications" spectacle
-brew install --cask --appdir="/Applications" bartender
-brew install --cask --appdir="/Applications" webtorrent
-brew install --cask --appdir="/Applications" vlc
-brew install --cask --appdir="/Applications" xquartz
-brew install --cask --appdir="/Applications" whatsapp
+brew install --cask google-chrome
+brew install --cask firefox
+brew install --cask zoom
+brew install --cask slack
+brew install --cask dropbox
+brew install --cask notion
+brew install --cask 1password
+brew install --cask fantastical
+brew install --cask rectangle
+brew install --cask bartender
+brew install --cask webtorrent
+brew install --cask vlc
+brew install --cask xquartz
+brew install --cask whatsapp
 
 #Remove comment to install LaTeX distribution MacTeX
-#brew install --cask --appdir="/Applications" mactex
+#brew install --cask mactex
 
 # Install Docker, which requires virtualbox
 brew install --cask docker
