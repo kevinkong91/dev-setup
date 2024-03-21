@@ -49,6 +49,10 @@ brew install wget
 brew install zsh
 chsh -s /usr/local/bin/zsh
 brew install zsh-syntax-highlighting zsh-autocomplete
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
 
 # Install dev basics
 brew install git
@@ -158,6 +162,8 @@ brew install --cask iterm2
 brew install --cask java
 brew install --cask xquartz
 brew install --cask raycast
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Development tool casks
 # brew install --cask sublime-text
