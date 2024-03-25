@@ -91,6 +91,11 @@ brew install apache-spark
 brew install --cask session-manager-plugin
 
 ###############################################################################
+# AWS CLI
+###############################################################################
+python -m pip install --user awscli
+
+###############################################################################
 # Install IPython Notebook Spark Integration
 ###############################################################################
 
@@ -100,7 +105,7 @@ echo "Installing IPython Notebook Spark integration"
 # Add the pyspark IPython profile
 cp -r init/profile_pyspark/ ~/.ipython/profile_pyspark
 
-BASH_PROFILE_PATH=~/.bash_profile
+BASH_PROFILE_PATH=~/.zshrc
 echo $BASH_PROFILE_PATH
 echo "" >> $BASH_PROFILE_PATH
 echo "" >> $BASH_PROFILE_PATH
