@@ -10,7 +10,7 @@ echo "------------------------------"
 echo "Setting up pip."
 
 # Install pip
-easy_install pip
+python -m ensurepip --upgrade
 
 ###############################################################################
 # Virtual Enviroments                                                         #
