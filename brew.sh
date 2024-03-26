@@ -179,6 +179,7 @@ brew install --cask keycastr
 brew install --cask google-chrome
 brew install --cask arc
 brew install --cask firefox
+brew install --cask loom
 brew install --cask zoom
 brew install --cask slack
 brew install --cask dropbox
