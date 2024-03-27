@@ -55,12 +55,13 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-$HOME/.
 
 
 # Install dev basics
-brew install openssl
 brew install git
 brew install git-lfs
 brew install git-flow
 brew install git-extras
 brew install github
+brew install openssl
+brew install unixodbc
 
 # Install RingoJS and Narwhal.
 # Note that the order in which these are installed is important;
