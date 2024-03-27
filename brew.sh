@@ -160,10 +160,8 @@ brew link libxml2 --force
 brew link libxslt --force
 
 # Core casks
-brew install --cask alfred
 brew install --cask iterm2
 brew install --cask java
-brew install --cask xquartz
 brew install --cask raycast
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -194,7 +192,6 @@ brew install --cask rectangle
 brew install --cask bartender
 brew install --cask webtorrent
 brew install --cask vlc
-brew install --cask xquartz
 brew install --cask whatsapp
 
 #Remove comment to install LaTeX distribution MacTeX
