@@ -55,6 +55,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-$HOME/.
 
 
 # Install dev basics
+brew install openssl
 brew install git
 brew install git-lfs
 brew install git-flow
