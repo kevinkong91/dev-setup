@@ -74,6 +74,7 @@ brew install narwhal
 brew install python
 brew install python3
 brew install pyenv
+brew install --cask anaconda
 brew install terraform
 
 # Install ruby-build and rbenv
