@@ -62,6 +62,7 @@ brew install git-extras
 brew install github
 brew install openssl
 brew install unixodbc
+brew install miniforge
 
 # Install RingoJS and Narwhal.
 # Note that the order in which these are installed is important;
