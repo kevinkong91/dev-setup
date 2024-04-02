@@ -63,6 +63,8 @@ brew install github
 brew install openssl
 brew install unixodbc
 brew install miniforge
+brew install terraform
+brew install paraview
 
 # Install RingoJS and Narwhal.
 # Note that the order in which these are installed is important;
@@ -75,7 +77,6 @@ brew install python
 brew install python3
 brew install pyenv
 brew install --cask anaconda
-brew install terraform
 
 # Install ruby-build and rbenv
 brew install ruby-build
