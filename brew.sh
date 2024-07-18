@@ -190,7 +190,6 @@ brew install --cask loom
 brew install --cask zoom
 brew install --cask slack
 brew install --cask google-drive
-brew install --cask dropbox
 brew install --cask notion
 brew install --cask 1password
 brew install --cask fantastical
