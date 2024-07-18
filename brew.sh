@@ -177,10 +177,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 # brew install --cask vagrant
 # brew install --cask macdown
 brew install --cask dbeaver-community
+brew install cursor
 brew install --cask visual-studio-code
 brew install --cask keycastr
 
 # Misc casks
+brew install cleanshot
 brew install --cask google-chrome
 brew install --cask arc
 brew install --cask firefox
