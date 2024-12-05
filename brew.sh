@@ -189,6 +189,7 @@ brew install --cask firefox
 brew install --cask loom
 brew install --cask zoom
 brew install --cask slack
+brew install --cask microsoft-teams
 brew install --cask google-drive
 brew install --cask notion
 brew install --cask 1password
