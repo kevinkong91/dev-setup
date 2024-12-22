@@ -65,6 +65,8 @@ brew install unixodbc
 brew install miniforge
 brew install terraform
 brew install paraview
+brew install helm
+brew install kubernetes-cli
 
 # Install RingoJS and Narwhal.
 # Note that the order in which these are installed is important;
