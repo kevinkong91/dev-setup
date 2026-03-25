@@ -170,6 +170,9 @@ brew install --cask iterm2
 brew install --cask java
 brew install --cask raycast
 
+brew install --cask claude
+brew install --cask wispr-flow
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Development tool casks
